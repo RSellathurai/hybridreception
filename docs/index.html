@@ -1,20 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>My Presentation</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Presentation</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+        }
+
+        .wrap {
+            height: 100vh;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+    </style>
 </head>
 
-<body style="margin:0; height:100vh;">
-
-
-
-    <iframe
-        src="https://docs.google.com/presentation/d/e/2PACX-1vT0uIgqZBw2-_VVHcaH6k-kZJ16lfqAznDkVP737N9QCVjley6YMXBJ8QmDEO-cWQ/pubembed?start=false&loop=false&delayms=3000"
-        frameborder="0" width="1536" height="893" allowfullscreen="true" mozallowfullscreen="true"
-        webkitallowfullscreen="true"></iframe>
-
+<body>
+    <!-- If your PDF is at /docs/deck.pdf, adjust the path if needed -->
+    <!-- Most browsers will show a smooth, continuous scroll for PDFs -->
+    <div class="wrap">
+        <iframe src="docs/HybridReception.pptx.pdf#zoom=page-width"></iframe>
+    </div>
 </body>
 
 </html>
